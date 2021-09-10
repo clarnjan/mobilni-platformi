@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:padding="25dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Name your recipe:"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            android:layout_weight="50"/>
+        <EditText
+            android:id="@+id/namee"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="50"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Write here your recipe:"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="100"
+        >
+
+        <EditText
+            android:id="@+id/firstt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Ingredient 1"
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/secondd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Ingredient 2"
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/thirdd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Ingredient 3"
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/fourthh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Ingredient 4"
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/fifthh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Ingredient 5"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/slika"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/slika"
+            android:layout_marginTop="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/changePhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change photo"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/rounded"
+                android:layout_marginLeft="50dp"/>
+            <Button
+                android:id="@+id/cameraPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take a picture"
+                android:background="@drawable/rounded"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <EditText
+            android:id="@+id/enterCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:layout_marginRight="5dp"
+            android:inputType="number"
+            android:hint="Calories" />
+
+        <EditText
+            android:id="@+id/enterPortions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="5dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Portions" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/createe"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Create"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="end"
+        android:background="@drawable/rounded"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "809351253599",
+    "firebase_url": "https://recipe-abbca.firebaseio.com",
+    "project_id": "recipe-abbca",
+    "storage_bucket": "recipe-abbca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809351253599:android:dfca427bb26ea9ebb0d5ea",
+        "android_client_info": {
+          "package_name": "com.example.recipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809351253599-0ob6asoklvulfdue80qjlqu6p4dl66oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYjMotWgzUbNIve7s5k7U2qV0k159Pdww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809351253599-0ob6asoklvulfdue80qjlqu6p4dl66oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

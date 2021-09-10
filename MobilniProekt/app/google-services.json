@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1078485977142",
+    "firebase_url": "https://fir-sucks-e851e.firebaseio.com",
+    "project_id": "fir-sucks-e851e",
+    "storage_bucket": "fir-sucks-e851e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078485977142:android:36d249bfcdbc4040c97097",
+        "android_client_info": {
+          "package_name": "com.example.mobilniproekt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078485977142-ve9cfi9v5pcjidfcv6i4uli4srh7qa0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobilniproekt",
+            "certificate_hash": "890a0bd30c4dbe958fd06029646bdbc05b2d3cdf"
+          }
+        },
+        {
+          "client_id": "1078485977142-ctsmlc88co5a6ff80vtstoclsd7cha7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQlB5cWmdqNcoDONGSKd70kceDciBgZAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078485977142-ctsmlc88co5a6ff80vtstoclsd7cha7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

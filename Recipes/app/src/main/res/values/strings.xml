@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="facebook_app_id">309025733698482</string>
+    <string name="fb_login_protocol_scheme">fb309025733698482</string>
+    <string name="google_map_key">AIzaSyAQkLDFGlK-qy_pD6oYrdmiHXs7l4SMd8g</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="3dp"
+    android:padding="4dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:id="@+id/nameLeft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:text="Line1"
+            android:gravity="start"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/portionsRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameLeft"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:textStyle="italic"
+            android:text="fssadsdsa"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:layout_marginRight="9dp"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/caloriesLeft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameLeft"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="26dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:text="sdadnsadsiaojdsa"
+            android:gravity="start"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

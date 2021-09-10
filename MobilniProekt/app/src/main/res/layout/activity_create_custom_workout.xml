@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateCustomWorkout"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/TWName"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Workout Name:"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"
+            />
+        <EditText
+            android:id="@+id/ETName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/TWName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textShortMessage"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/TWDifficulty"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Workout Difficulty:"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"/>
+
+        <Button
+            android:id="@+id/BTNDiff"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:text="Beginner"
+            android:textAlignment="center"
+        android:layout_toEndOf="@id/TWDifficulty"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/IWCreate"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/abs"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/BTNChangePicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chose from Galery"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                />
+            <Button
+                android:id="@+id/BTNCamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take a picture"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add up to 10 exercises:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Exercise name:"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"
+            />
+        <EditText
+            android:id="@+id/ETExerciseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textShortMessage"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Sets :"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"
+            />
+        <EditText
+            android:id="@+id/ETSets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Reps: "
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"
+            />
+        <EditText
+            android:id="@+id/ETReps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="number"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/BTNAddExercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD EXERCISE"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:id="@+id/BTNCreateWorkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE WORKOUT"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        />
+
+</LinearLayout>

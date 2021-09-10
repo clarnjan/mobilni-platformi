@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/IHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/IMaps"
+    android:icon="@drawable/ic_location"
+    android:title="neerby gyms"
+    app:showAsAction="always"
+        />
+    <item android:id="@+id/ILogOut"
+        android:icon="@drawable/ic_logout"
+        android:title="Log Out"
+        app:showAsAction="always"
+        />
+
+</menu>
